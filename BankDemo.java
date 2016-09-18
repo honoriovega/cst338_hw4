@@ -6,13 +6,13 @@ public class BankDemo
 		
 		System.out.println("\n============ Three New Accounts ========");
 		csumbBank.openAccount("Tom Smith", "123 University Center 93955",
-							  77777, 1000, 1, 10.0);
+							  77777, 1000, 1, 10.35);
 		
 		csumbBank.openAccount("Alice Smith", "123 University Center 93955",
 							  88888, 2000, 1, 50.25);
 		
 		csumbBank.openAccount("Joe Otter", "2440 Ocean Avenue 93900",
-							   99999, 3000, 2, 100.25);
+							   99999, 3000, 2, 100.20);
 				
 		System.out.println("\n========== Bank Info ===========");
 		csumbBank.bankInfo();
