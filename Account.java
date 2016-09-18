@@ -15,14 +15,39 @@ public class Account
 	{
 		accNum = 0;
 		accType = 0;
-		Customer = null;
+		accountholder = null;
 	}
 	
 	public Account(int accNum, int accType, Customer c)
 	{
+		setAccountNumber(accNum);
+		setAccountType(accType);
+		setAccountHolder(c);
+	}
+	
+	void setAccountNumber(int accNum)
+	{
 		this.accNum = accNum;
+	}
+	
+	void setAccountType(int accType)
+	{
 		this.accType = accType;
+	}
+	
+	void setAccountHolder(Customer c)
+	{
 		accountholder = c;
+	}
+	
+	public int getAccountNumber()
+	{
+		return accNum;
+	}
+	
+	public int getAccountType()
+	{
+		return accType;
 	}
 	
 	// if necessary addmore variabla
