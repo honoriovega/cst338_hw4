@@ -22,6 +22,7 @@ public class BankDemo
 		System.out.println(csumbBank.closeAccount(1000));
 		System.out.println(csumbBank.closeAccount(7000));
 		
+
 		System.out.println("=============== Account Info ==========");
 		csumbBank.accountInfo(2000);
 		
